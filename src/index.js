@@ -1,10 +1,4 @@
 module.exports = function toReadable(number) {
-    const getNumberDigits = (number) =>
-        number
-            .toString()
-            .split("")
-            .map((item) => +item);
-
     const toReadableDigit = (number) => {
         const DIGITS = [
             "zero",
